@@ -14,9 +14,9 @@
       "RPC_HOST"        : "localhost",
       "RPC_PORT"        : "8545",
       "LISTENING_PORT"  : "30303",
-      "INSTANCE_NAME"   : "",
-      "CONTACT_DETAILS" : "",
-      "WS_SERVER"       : "wss://teostats.net",
+      "INSTANCE_NAME"   : "teo-node-my",
+      "CONTACT_DETAILS" : "trustfarm",
+      "WS_SERVER"       : "ws://teostat.tao.foundation:3000",
       "WS_SECRET"       : "1111",
       "VERBOSITY"       : 2
     }
