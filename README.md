@@ -21,10 +21,10 @@ Configure the app modifying [processes.json](/eth-net-intelligence-api/blob/mast
 		"RPC_HOST"        : "localhost", // rTEO JSON-RPC host
 		"RPC_PORT"        : "8545", // rTEO JSON-RPC port
 		"LISTENING_PORT"  : "30303", // rTEO listening port (only used for display)
-		"INSTANCE_NAME"   : "", // whatever you wish to name your node
-		"CONTACT_DETAILS" : "", // add your contact details here if you wish (email/skype)
-		"WS_SERVER"       : "wss://teostats.net", // path to teo-netstats WebSockets api server
-		"WS_SECRET"       : "1111", // WebSockets api server secret used for login
+		"INSTANCE_NAME"   : "teo-node-trustfarm", // whatever you wish to name your node
+		"CONTACT_DETAILS" : "trustfarm", // add your contact details here if you wish (email/skype)
+		"WS_SERVER"       : "ws://teostat.tao.foundation:3000", // path to teo-netstats WebSockets api server
+		"WS_SECRET"       : "1111", // TEOSTAT server uses passwd for "1111"  WebSockets api server secret used for login
 		"VERBOSITY"       : 2 // Set the verbosity (0 = silent, 1 = error, warn, 2 = error, warn, info, success, 3 = all logs)
 	}
 ```
